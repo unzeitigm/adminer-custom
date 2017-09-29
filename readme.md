@@ -8,6 +8,9 @@ Customizations for [Adminer](https://www.adminer.org), the best database managem
 - SQL autocomplete plugin
 - plugin that dumps to PHP code
 - plugin that saves menu scroll position
+- plugin that filters table names
+- plugin that hides demanded databases from the interface
+- plugin that appends datetime to the name of the export file
 
 
 Installation

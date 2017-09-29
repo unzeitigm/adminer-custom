@@ -39,6 +39,14 @@ function adminer_object()
 		new AdminerSaveMenuPos,
 		new AdminerRemoteColor,
 		new AdminerDumpPhpPrototype,
+		new AdminerDatabaseHide([
+			"information_schema",
+			"mysql",
+			"performance_schema",
+			"phpmyadmin"
+		]),
+		new AdminerTablesFilter,
+		new AdminerDumpDate,
 	];
 
 	return new AdminerPlugin($plugins);
